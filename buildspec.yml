@@ -17,6 +17,9 @@ batch:
         - linux_medium
 
 phases:
+  install:
+    runtime-versions:
+      golang: 1.15
   pre_build:
     commands:
       - echo 'prebuild'
